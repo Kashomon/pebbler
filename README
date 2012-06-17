@@ -1,0 +1,9 @@
+1. do: git clone git@github.com:Kashomon/pebbler.git
+
+1a. (optional) If you don't have Buildr, Install Buildr (http://buildr.apache.org/)
+1b. (optional) Run buildr package to recreate the jar
+
+2. run the pebbler jar in the target dir =)
+
+Notes:
+Requires java JDK 6
