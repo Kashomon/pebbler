@@ -1,0 +1,14 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[pb][pc][qc][rd][qe]AB[qb][sb][rc]C[Black to live]
+(;B[ra]C[Black lives]
+;W[sc]
+;B[sd])
+(;B[sc]
+;W[ra]C[Black is dead])
+(;B[qa]
+;W[ra]
+;B[pa]
+;W[oa]
+;B[rb]
+;W[nb]C[Black is dead]))

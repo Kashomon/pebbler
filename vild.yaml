@@ -1,0 +1,9 @@
+---
+build: call JavacOut_GetJavacErrors(system('buildr build'))
+run: !buildr package
+test: !buildr test
+dir: /Users/Kashomon/Desktop/CurrentProjects/pebbler
+proj_root: "/Users/Kashomon/Desktop/CurrentProjects/pebbler/src/main/java", "/Users/Kashomon/Desktop/CurrentProjects/libraries/google-gson-stream-2.1.jar"
+set_vimporter_res: let g:vimporter_add_roots = [] | let g:vimporter_add_roots = [ $vild:proj_root ] | let g:vimporter_org_name = "pebbler"
+ctags: lcd $vild:dir | exe "!ctags -R --language-force=java" | lcd %:p:h
+---

@@ -1,0 +1,45 @@
+{
+  "bookSettings" : {
+    "title" : "My Go Book",
+    "author" : "JRH",
+    "sections" : [
+      { "header" : "FirstSection",
+        "problems" : [
+        "easy.sgf", "easy2.sgf", "hard.sgf", "bit_harder.sgf"
+      ]}
+    ]
+  },
+  "cropbox" : "TopRight",
+  "diagrams" : [
+    {
+      "sgfFile" : "easy.sgf",
+      "variations" : [
+        { "moves" : ["0"] },
+        { "moves" : ["0"], "continueToEnd" : true }
+      ]
+    },
+    {
+      "sgfFile" : "easy2.sgf",
+      "variations" : [
+        { "moves" : ["0"] },
+        { "moves" : ["0"], "continueToEnd" : true }
+      ]
+    },
+    {
+      "sgfFile" : "hard.sgf",
+      "variations" : [
+        { "moves" : ["0"] },
+        { "moves" : ["0"], "continueToEnd" : true}
+      ]
+    },
+    {
+      "sgfFile" : "bit_harder.sgf",
+      "variations" : [
+        { "moves" : ["0"] },
+        { "moves" : ["0.0", "3"] },
+        { "moves" : ["0.1"], "continueToEnd" : true },
+        { "moves" : ["0.2"], "continueToEnd" : true }
+      ]
+    }
+  ]
+}

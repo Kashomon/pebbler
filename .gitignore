@@ -1,0 +1,16 @@
+*.swp
+*.class
+.DS_store
+*~
+target/classes
+target/resources
+target/test
+out.pdf
+reports
+target/output
+tags
+.tags
+*.pdf
+*.aux
+*.tex
+*.log
