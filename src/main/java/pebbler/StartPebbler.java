@@ -21,7 +21,7 @@ public class StartPebbler {
 
   public static void main(String[] args) {
     if (args.length <= 0) {
-      System.out.println("At least one arg (pebbler project) must be" + 
+      System.out.println("At least one arg (pebbler project) must be" +
           "specified");
     }
 
